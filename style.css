@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body
+{
+    font-family: 'Darumadrop One', cursive;
+}
+header
+{
+    height: 150px;
+    background: linear-gradient(45deg,#a2c8ec,#62a850,#5c83a5,#d4bba3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul
+{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+ul li a 
+{
+    padding: 0 25px;
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    
+}
+li a::after
+{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0%;
+    background-color: magenta;
+    transition:all .5s
+}
+li a:hover::after
+{
+    width: 100%;
+}
+main
+{
+    display: flex;
+    border: 1px solid gray;
+    height: calc(100vh - 100px);
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+}
+.im2
+{
+    border-radius: 100px;
+    max-width: 1200px;
+}
+.c1
+{
+    width: 40%;
+}
+main h1
+{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: rgba(175, 37, 37, 0.767);
+    margin: 40px;
+    margin-bottom: 0px;
+}
+main h2
+{
+    font-size: 65px;
+    text-transform: uppercase;
+    color: rgb(209, 206, 12);
+    font-weight: 300;
+    letter-spacing: 6px;
+    margin: 40px;
+    margin-top: 0px;
+}
+main p
+{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: cursive;
+    line-height: 50.2px;
+    margin: 40px;
+
+}
+#button
+{
+    background: linear-gradient(45deg,rgb(249, 78, 255),rgb(33, 240, 229));
+    font-size: 32px;
+    text-decoration: none;
+    border-radius: 40px;
+
+
+}
+.up_bot
+{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.more
+{
+    background: linear-gradient(45deg,#fc92c4,#13a699);
+    font-size: 30px;
+    height: 50px;
+    width: 190px;
+    margin: 40px;
+    border-radius: 20px;
+}
